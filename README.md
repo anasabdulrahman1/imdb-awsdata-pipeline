@@ -10,7 +10,7 @@ Download data from- 
 Go to the S3 service in the AWS Console.
 
 2. Click Create bucket (if you don't have one already).
-3. Name your bucket (e.g., akhil-pipeline) and choose your region.
+3. Name your bucket (e.g., anas-pipeline) and choose your region.
 4. Click Create bucket.
 5. Open the bucket and click Upload.
 6. Upload the imdb_top_1000.csv file either to the root or inside a folder like raw/.
