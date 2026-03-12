@@ -15,7 +15,7 @@ Go to the S3 service in the AWS Console.
 5. Open the bucket and click Upload.
 6. Upload the imdb_top_1000.csv file either to the root or inside a folder like raw/.
 Make sure:
-The file is placed in the folder or root directory like: s3://akhil-pipeline/imdb_top_1000.csv
+The file is placed in the folder or root directory like: s3://anas-pipeline/imdb_top_1000.csv
 It's accessible via IAM roles used by Glue and Athena.
 
  Step 2: Create Glue Database
