@@ -1,10 +1,10 @@
-# imdb-aws-data-pipeline
-IMDb Top 1000 Movie Data Pipeline using AWS S3, Glue, Athena &amp; QuickSight
+# imdb-awsdata-pipeline
+IMDb Top 1000 Movie Data Pipeline using AWS S3, Glue, Athena & amp; QuickSight
 Building a Data Pipeline with AWS: IMDb Top 1000 Movies Project
 
 In this blog, we'll walk through how to build a complete data pipeline using AWS services. We'll use IMDb's Top 1000 movies dataset and clean, transform, query, and visualize it using Amazon S3, AWS Glue, Amazon Athena, and Amazon QuickSight.
 Step 1: Store Data in Amazon S3
-We start by uploading our raw dataset imdb_top_1000.csv to an S3 bucket named akhil-pipeline (you can name your bucket differently, akhil is used here as an example).
+We start by uploading our raw dataset imdb_top_1000.csv to an S3 bucket named anas-pipeline (you can name your bucket differently, anas is used here as an example).
 Download data from- 
  To Do It:
 Go to the S3 service in the AWS Console.
@@ -30,7 +30,7 @@ Go to AWS Glue > Crawlers
 Click "Add crawler"
 
 3. Name it: imdb-crawler
- 2. Data store: Choose S3, and provide path: s3://akhil-pipeline/imdb_top_1000.csv
+ 2. Data store: Choose S3, and provide path: s3://anas-pipeline/imdb_top_1000.csv
 3. IAM Role: Choose existing or create a new IAM role with S3 read access
 4. Database: Select imdb_pipeline_db
 5. Run frequency: Select Run on demand
